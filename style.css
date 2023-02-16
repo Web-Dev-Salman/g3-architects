@@ -202,7 +202,7 @@ font-size: 25px;
 .experience{
     height: 115px;
     width: 200px;
-    margin-left: -1git 0px;
+    margin-left: -10px;
 }
 .experience h1{
     font-size: 35px;
@@ -213,5 +213,61 @@ font-size: 25px;
 }
 /* Features section end here */
 
+/* some facts section start here  */
+.facts-section{
+    margin-top: 60px;
+}
+.facts-section-info{
+    padding-right: 800px;
+}
+.facts-section-info p{ 
+    padding-top: 10px;
+}
+.facts-box{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  
+}
+.facts-box-info{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    transition: margin 0.3s ease-in-out;
+}
+.facts-box-info > h1{
+    padding: 15px 0px;
+}
+.facts-box-info:hover{
+    margin-top: -5px;
+    box-shadow: 0px 10px 10px #00000050;
+}
+@media only screen and (max-width: 720px){
+.facts-section{
+        padding: 0px 20px;
+        text-align: center;
+    }
+.facts-box{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+.facts-section-info{
+        padding-right: 0px;
+    }
+.facts-box-info{
+    margin-bottom: 20px;
+}
+}
+/* some facts section end here  */
 
+
+/* our sponsors section start here */
+
+
+/* our sponsors section end here */
 /* main section end here  */

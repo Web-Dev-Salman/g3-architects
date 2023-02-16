@@ -111,14 +111,107 @@
     margin-top: 60px;
     padding: 0px 20px;
 }
+.quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 5px;
+}
+.quick-list-img img{
+    width: 100%;
+}
 @media only screen and (max-width: 720px){
 .quick-list{
     grid-template-columns: repeat(1, 1fr);
+
+}
+.quick-list-img{
+    grid-template-columns: repeat(1 ,1fr);
+    gap: 5px;
+}
+.quick-list-info{
     text-align: center;
-}}
+    margin-top: 20px;
+}
 .quick-list-info p{
     margin: 25px 0px;
-}
+}}
 /* Quick list of Our Features section end here */
+
+/* Features section start here */
+
+.features-section{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.features-section-info{
+    padding-right: 130px;
+}
+.features-section-info-heading{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 45px;
+    
+}
+.features-section-info> p{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.features-section-service{
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.features-section-img img{
+    width: 100%;
+
+}
+.experience{
+    height: 200px;
+    width: 350px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+    margin-left: -100px;
+    z-index: 999;
+    position: relative;
+}
+.experience h1{
+font-size: 65px;
+}
+.experience p{
+font-size: 25px;
+}
+@media only screen and (max-width: 720px){
+.features-section{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px 20px;
+}
+.features-section-info{
+    padding-right: 0px;
+    text-align: center;
+}
+.experience{
+    height: 115px;
+    width: 200px;
+    margin-left: -1git 0px;
+}
+.experience h1{
+    font-size: 35px;
+    }
+    .experience p{
+    font-size: 15px;
+    }
+}
+/* Features section end here */
+
 
 /* main section end here  */
